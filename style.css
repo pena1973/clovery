@@ -1,0 +1,26 @@
+/* 'Manrope' */
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap');
+
+
+.title{
+    font-family:Manrope sans-serif;
+    /* text-transform: uppercase; */    
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 53px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 61px 60px;
+}
+
+/* можно было и не делать но я умею и это*/
+@media screen and (max-width: 1350px) {
+  .title {
+    text-align: center;    
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .title {
+    text-align: center;
+  }}
